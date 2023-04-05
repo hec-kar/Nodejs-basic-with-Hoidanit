@@ -7,9 +7,4 @@ const pool = mysql.createPool({
     user: 'root',
     database: 'nodejs-basic'
 });
-
-// simple query
-
-
-
 export default pool;
